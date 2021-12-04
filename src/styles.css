@@ -3,6 +3,10 @@
   --secondary-color: #0a58ca;
 }
 
+div.wrapper {
+  margin-bottom: 50px;
+}
+
 h1 {
   font-size: 96px !important;
 }
@@ -70,4 +74,32 @@ a:hover {
 
 .contact-email:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 70px !important;
+  }
+
+  h2 {
+    font-size: 38px !important;
+  }
+
+  .weather-title {
+    margin-top: 45px;
+  }
+
+  .link-app {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .col-md-6 h2 {
+    text-align: center;
+  }
+
+  .col-md-6 p {
+    text-align: center;
+  }
 }
